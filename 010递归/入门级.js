@@ -50,38 +50,7 @@ let menuTreeList = [
   }
 ]
 
-/**
- * 
- * @param {*} menuTreeList 
- * 
- *  "children": [
-                {
-                  "id": "18bf8d5df09511e78a57201a068c6484",
-                  "name": "菜单管理-新增",
-                  "menuType": 1
-                },
-                {
-                    "id": "18bf8d5df09511e78a57201a068c6485",
-                    "name": "菜单管理-修改",
-                    "menuType": 1,
-                    "children": [
-                      {
-                        "id": "18bf8d5df09511e78a57201a068c6484",
-                        "name": "子新增1",
-                        "menuType": 1
-                      },
-                      {
-                        "id": "18bf8d5df09511e78a57201a068c6485",
-                        "name": "子修改1",
-                        "menuType": 1
-                      }
-                  ]
-                }
-            ]
- */
-
 // 递归遍历把数据对象中 menuType = 1的推进数组
-
 const getMenuType = function(menuTreeList){
   const menuArr =[]
 
